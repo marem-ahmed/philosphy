@@ -1,0 +1,81 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)), url(../img/hero-bg.jpg);
+    min-height: 100vh;
+}
+nav a{
+    color: gray;
+}
+nav a:hover{
+    color: white;
+}
+.galler-1{
+    background-image: url(../img/featured-guitarman.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galler-1 span{
+    width: fit-content;
+}
+.galler-1:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/featured-guitarman.jpg);
+}
+.main-gallery{
+    background-color:#F2F2F2;
+}
+.btns a{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.btns a:hover{
+background-color: #C4C4C4;
+}
+.sm-card{
+    display: flex;
+
+}
+.sm-card-img{
+    width: 25%;
+    margin-right: 2rem;
+}
+img{
+    width: 100%;
+}
+
+/* code of tags section */
+.tags a{
+    background-color: rgb(189, 187, 187);
+    color: black;
+}
+.tags a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* code of footer */
+footer{
+    background-color: black;
+}
+footer .form-control{
+    border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
+
+     
+}
+footer .btn{
+      border-top-left-radius: 0;
+     border-bottom-left-radius: 0;
+}
+footer h6{
+    position: relative;
+    padding-bottom: 1rem;
+}
+footer h6::after{
+    content: "";
+    height: 1px;
+    width: 70px;
+    background-color: #C4C4C4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
